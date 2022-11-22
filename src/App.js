@@ -1,7 +1,10 @@
+import GlobalStyled from "./styles/globalstyles";
+
 function App() {
   return (
     <div className="App">
-      <h1>oi</h1>
+      <div>DALE</div>
+      <GlobalStyled />
     </div>
   );
 }
