@@ -2,8 +2,8 @@ import styled from "styled-components";
 import logo from "../../image/logo.jpg";
 
 export const Container = styled.div`
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   background: white;
   position: fixed;
   top: 0;
@@ -16,7 +16,6 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-  float: left;
   background-image: url(${logo});
   background-position: center center;
   background-size: cover;
