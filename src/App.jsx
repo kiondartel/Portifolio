@@ -1,4 +1,4 @@
-import About from "./components/About";
+import ProjectsContainer from "./components/ProjectsContainer";
 import MainContainer from "./components/MainContainer";
 import { MenuLinks } from "./components/MenuLinks";
 import GlobalStyled from "./styles/globalstyles";
@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <MenuLinks />
         <MainContainer />
-        <About />
+        <ProjectsContainer />
         <GlobalStyled />
       </div>
     </section>

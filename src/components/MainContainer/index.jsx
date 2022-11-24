@@ -1,7 +1,7 @@
 import * as Styled from "./styles";
 import gabriel from "../../image/gabriel.jpg";
 
-const MainContainer = () => {
+const ProjectsContainer = () => {
   return (
     <Styled.Container>
       <Styled.Background>
@@ -20,4 +20,4 @@ const MainContainer = () => {
   );
 };
 
-export default MainContainer;
+export default ProjectsContainer;
