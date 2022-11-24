@@ -26,7 +26,7 @@ export const Title = styled.h1`
   font-size: 1.5rem;
   color: white;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   &::after {
     content: "";
     position: absolute;
@@ -42,4 +42,24 @@ export const P = styled.p`
   color: white;
   font-family: "helvetica";
   margin-bottom: 1rem;
+`;
+
+export const InforCard = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid black;
+  width: 100%;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+`;
+
+export const SubTitle = styled.h3`
+  font-size: 1rem;
 `;

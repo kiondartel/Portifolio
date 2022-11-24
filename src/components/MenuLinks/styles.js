@@ -11,8 +11,13 @@ export const Container = styled.div`
   right: 0;
   width: 100%;
   height: 5%;
+  background: linear-gradient(
+    90deg,
+    rgba(250, 82, 82, 1) 0%,
+    rgba(221, 36, 118, 1) 100%
+  );
   align-items: center;
-  border-bottom: 0.1rem solid #eeeeee;
+  border-bottom: 0.1rem solid crimson;
 `;
 
 export const Logo = styled.img`
@@ -36,4 +41,8 @@ export const Links = styled.a`
   &:hover {
     border-bottom: 0.2rem solid crimson;
   }
+`;
+
+export const SubTitle = styled.h3`
+  font-size: 1rem;
 `;
