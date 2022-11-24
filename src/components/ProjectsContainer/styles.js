@@ -29,6 +29,7 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 94%;
 `;
 export const ProjectDiv = styled.div`
   width: 380px;
