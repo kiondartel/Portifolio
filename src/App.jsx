@@ -7,13 +7,11 @@ import AboutCountainer from "./components/AboutCountainer";
 function App() {
   return (
     <section>
-      <div className="App">
-        <MenuLinks />
-        <MainContainer />
-        <ProjectsContainer />
-        <AboutCountainer />
-        <GlobalStyled />
-      </div>
+      <MenuLinks />
+      <MainContainer />
+      <ProjectsContainer />
+      <AboutCountainer />
+      <GlobalStyled />
     </section>
   );
 }

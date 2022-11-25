@@ -9,7 +9,8 @@ const Global = createGlobalStyle`
  }
 
  body{
-  background-color: #fffafa;
+  background-color: black;
+  height: 50vh;
  }
 
 

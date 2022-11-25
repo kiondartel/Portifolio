@@ -1,14 +1,18 @@
 import styled from "styled-components";
+import tigreback from "../../image/tigreback.jpg";
 
 export const Container = styled.div`
-  min-height: 100vh;
+  min-height: 85vh;
   background-color: #fff;
+  background-image: url(${tigreback});
+  background-size: cover;
+  background-position: center center;
 `;
 
 export const P = styled.p`
-  color: black;
-  font-size: 17px;
-  margin-top: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;

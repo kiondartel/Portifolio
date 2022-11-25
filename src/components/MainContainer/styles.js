@@ -5,7 +5,7 @@ import tigreE from "../../image/tigre2.png";
 
 export const Container = styled.div`
   align-items: center;
-  min-height: 100vh;
+  min-height: 110vh;
   background-image: url(${bg});
   background-size: cover;
   background-position: center center;
