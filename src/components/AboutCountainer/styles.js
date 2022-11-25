@@ -5,11 +5,11 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 30vh;
-  border: 1px solid red;
   background: linear-gradient(
     90deg,
-    rgba(250, 82, 82, 1) 0%,
-    rgba(221, 36, 118, 1) 100%
+    rgb(222, 82, 250) 0%,
+    rgb(231, 221, 231) 35%,
+    rgb(206, 36, 221) 98%
   );
 `;
 
@@ -19,7 +19,7 @@ export const DivContent = styled.div`
   border-radius: 5px;
   padding: 15px;
   margin-left: 5px;
-  background-color: #4f4f4f;
+  background-color: #242424; ;
 `;
 
 export const Title = styled.h1`
@@ -32,7 +32,11 @@ export const Title = styled.h1`
     position: absolute;
     bottom: 0;
     left: 0;
-    background: crimson;
+    background: linear-gradient(
+      90deg,
+      rgb(188, 108, 212) 0%,
+      rgb(208, 35, 231) 100%
+    );
     height: 2px;
     width: 50%;
   }

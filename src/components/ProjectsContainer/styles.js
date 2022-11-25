@@ -1,16 +1,17 @@
 import styled from "styled-components";
-import tigreback from "../../image/tigreback.jpg";
 
 export const Container = styled.div`
-  min-height: 85vh;
+  min-height: 80vh;
   background-color: #fff;
-  background-image: url(${tigreback});
-  background-size: cover;
-  background-position: center center;
 `;
 
+export const H1 = styled.h1`
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+`;
 export const P = styled.p`
-  color: white;
+  color: black;
   font-size: 1.2rem;
   padding-top: 10px;
   display: flex;
@@ -18,11 +19,12 @@ export const P = styled.p`
   align-items: center;
   gap: 1rem;
   position: relative;
+  padding: 6px;
   &::after {
     content: "";
     position: absolute;
     bottom: 0;
-    background: crimson;
+    background: black;
     height: 2px;
     width: 8.3%;
   }
@@ -36,18 +38,15 @@ export const Content = styled.div`
   width: 94%;
 `;
 export const ProjectDiv = styled.div`
-  width: 380px;
+  width: 382px;
   height: 350px;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-left: 8rem;
-  background: linear-gradient(
-    90deg,
-    rgb(162, 180, 206) 0%,
-    rgb(55, 133, 221) 100%
-  );
+  background: linear-gradient(90deg, rgb(44, 43, 44) 0%, rgb(0, 2, 10) 98%);
+  border-radius: 10px;
 `;
 export const H3 = styled.h3`
-  color: #292929;
+  color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.1rem;
   margin-bottom: 3px;
@@ -57,19 +56,21 @@ export const Button = styled.a`
   padding: 0.8rem 1rem;
   background: linear-gradient(
     90deg,
-    rgb(162, 180, 206) 0%,
-    rgb(55, 133, 221) 100%
+    rgb(188, 108, 212) 0%,
+    rgb(208, 35, 231) 100%
   );
-  color: black;
+  color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 3rem;
+  border: 1px solid white;
 `;
 export const ProjectsP = styled.p`
   font-size: 1rem;
   margin-bottom: 0.8rem;
   padding: 5px;
+  color: white;
 `;
 
 export const Netflximg = styled.img`
@@ -91,12 +92,13 @@ export const Bnt = styled.a`
   padding: 0.8rem 4rem;
   background: linear-gradient(
     90deg,
-    rgb(162, 180, 206) 0%,
-    rgb(55, 133, 221) 100%
+    rgb(188, 108, 212) 0%,
+    rgb(208, 35, 231) 100%
   );
-  color: black;
+  color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 1rem;
+  border: 1px solid black;
 `;

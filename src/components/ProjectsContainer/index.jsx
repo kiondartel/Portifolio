@@ -5,6 +5,7 @@ import landing from "../../image/landing.png";
 const ProjectsContainer = () => {
   return (
     <Styled.Container>
+      <Styled.H1>Projetos</Styled.H1>
       <Styled.P>Confira meus projetos</Styled.P>
       <Styled.Content>
         <Styled.ProjectDiv>

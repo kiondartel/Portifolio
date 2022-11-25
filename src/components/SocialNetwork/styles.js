@@ -6,7 +6,7 @@ export const Container = styled.div`
   border-radius: 5px;
   padding: 15px;
   margin-left: 5px;
-  background-color: #4f4f4f;
+  background-color: #242424;
 
   svg {
     width: 50px;
@@ -23,8 +23,8 @@ export const Container = styled.div`
     margin-left: 1.5;
     background: linear-gradient(
       90deg,
-      rgba(250, 82, 82, 1) 0%,
-      rgba(221, 36, 118, 1) 100%
+      rgb(188, 108, 212) 0%,
+      rgb(208, 35, 231) 100%
     );
     &:hover {
       background: linear-gradient(
@@ -56,7 +56,11 @@ export const Title = styled.h1`
     position: absolute;
     bottom: 0;
     left: 0;
-    background: crimson;
+    background: linear-gradient(
+      90deg,
+      rgb(188, 108, 212) 0%,
+      rgb(208, 35, 231) 100%
+    );
     height: 2px;
     width: 50%;
   }
