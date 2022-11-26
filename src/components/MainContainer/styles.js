@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import bg from "../../image/main-bg.svg";
 import tigre from "../../image/tigre.png";
 import tigreE from "../../image/tigre2.png";
 import tigreback from "../../image/tigreback.jpg";
@@ -20,7 +19,6 @@ export const TigreBackground = styled.div`
   background-image: url(${tigreback});
   background-size: cover;
   background-position: center center;
-
   height: 70vh;
 `;
 
@@ -41,11 +39,12 @@ export const H3 = styled.h3`
 `;
 
 export const DivBtn = styled.div`
-  margin-top: 7rem;
-  height: 200px;
-
-  margin-bottom: 2r;
-  width: 10%;
+  height: 424px;
+  width: 20%;
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const Bnt = styled.a`
@@ -64,6 +63,7 @@ export const Bnt = styled.a`
   font-size: 1.3rem;
   text-decoration: none;
   border-radius: 10px;
+  margin-left: 2.5rem;
   border: 1px solid black;
 `;
 
@@ -96,7 +96,7 @@ export const TigreContainer = styled.div`
 `;
 export const TigreD = styled.div`
   background-image: url(${tigreE});
-  width: 45%;
+  width: 40%;
   background-position: center center;
   background-size: 100% 100%;
   height: 424px;
@@ -105,7 +105,7 @@ export const TigreD = styled.div`
 
 export const TigreE = styled.div`
   background-image: url(${tigre});
-  width: 45%;
+  width: 40%;
   background-position: center center;
   background-size: 100% 100%;
   height: 424px;
