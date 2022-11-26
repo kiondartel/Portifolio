@@ -42,7 +42,6 @@ export const DivBtn = styled.div`
   height: 424px;
   width: 20%;
   display: flex;
-  vertical-align: middle;
   justify-content: space-between;
   align-items: center;
 `;

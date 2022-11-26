@@ -30,7 +30,7 @@ export const Logo = styled.img`
 `;
 
 export const DivLinks = styled.div`
-  margin-right: 20px;
+  margin-right: 5rem;
 `;
 export const Links = styled.a`
   margin-left: 3rem;

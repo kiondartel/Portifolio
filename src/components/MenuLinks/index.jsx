@@ -6,8 +6,7 @@ export const MenuLinks = () => {
     <Styled.Container>
       <Styled.Logo img={logo} />
       <Styled.DivLinks>
-        <Styled.Links href="#">Home</Styled.Links>
-        <Styled.Links href="#">Projetos</Styled.Links>
+        <Styled.Links href="/">Home</Styled.Links>
       </Styled.DivLinks>
     </Styled.Container>
   );
