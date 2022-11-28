@@ -54,11 +54,7 @@ export const H3 = styled.h3`
 
 export const Button = styled.a`
   padding: 0.8rem 1rem;
-  background: linear-gradient(
-    90deg,
-    rgb(188, 108, 212) 0%,
-    rgb(208, 35, 231) 100%
-  );
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%););
   color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.1rem;
@@ -90,11 +86,7 @@ export const GitBnt = styled.div`
 
 export const Bnt = styled.a`
   padding: 0.8rem 4rem;
-  background: linear-gradient(
-    90deg,
-    rgb(188, 108, 212) 0%,
-    rgb(208, 35, 231) 100%
-  );
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.1rem;

@@ -5,12 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 30vh;
-  background: linear-gradient(
-    90deg,
-    rgb(222, 82, 250) 0%,
-    rgb(231, 221, 231) 35%,
-    rgb(206, 36, 221) 98%
-  );
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
 `;
 
 export const DivContent = styled.div`

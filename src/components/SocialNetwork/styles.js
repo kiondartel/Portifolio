@@ -22,9 +22,10 @@ export const Container = styled.div`
     margin-top: 2rem;
     margin-left: 1.5;
     background: linear-gradient(
-      90deg,
-      rgb(188, 108, 212) 0%,
-      rgb(208, 35, 231) 100%
+      to right,
+      #cb22d4 0%,
+      #4682b4 50%,
+      #cb22d4 100%
     );
     &:hover {
       background: linear-gradient(

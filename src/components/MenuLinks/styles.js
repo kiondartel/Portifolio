@@ -11,12 +11,7 @@ export const Container = styled.div`
   right: 0;
   width: 100%;
   height: 6%;
-  background: linear-gradient(
-    90deg,
-    rgb(222, 82, 250) 0%,
-    rgb(231, 221, 231) 40%,
-    rgb(206, 36, 221) 98%
-  );
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
   align-items: center;
 `;
 

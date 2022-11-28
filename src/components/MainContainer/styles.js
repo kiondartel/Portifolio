@@ -48,15 +48,7 @@ export const DivBtn = styled.div`
 
 export const Bnt = styled.a`
   padding: 0.8rem 5rem;
-  background: linear-gradient(
-    90deg,
-    rgb(241, 206, 241) 0%,
-    rgb(211, 104, 214) 40%,
-    rgb(216, 25, 216) 60%,
-    rgb(94, 168, 202) 70%,
-    rgb(177, 212, 231) 80%,
-    rgb(213, 228, 236) 98%
-  );
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.3rem;
