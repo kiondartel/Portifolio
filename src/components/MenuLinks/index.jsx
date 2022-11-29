@@ -8,7 +8,6 @@ export const MenuLinks = () => {
         <Styled.Logo src={logo} />
         <Styled.SubTitle>Bem vindo</Styled.SubTitle>
       </Styled.DivLogo>
-
       <Styled.DivLinks>
         <Styled.Links href="/">Home</Styled.Links>
       </Styled.DivLinks>

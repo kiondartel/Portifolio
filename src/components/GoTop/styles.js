@@ -11,7 +11,12 @@ export const Container = styled.a`
   bottom: 2rem;
   right: 2rem;
   z-index: 6;
-  opacity: 0.7;
+  opacity: 0.9;
   border-radius: 50%;
   color: black;
+
+  @media (max-width: 520px) {
+    width: 2rem;
+    height: 2rem;
+  }
 `;

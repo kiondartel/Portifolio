@@ -14,13 +14,13 @@ const ProjectsContainer = () => {
         </Styled.BackgroundPhoto>
       </Styled.TigreBackground>
       <Styled.TigreContainer>
-        <Styled.TigreD />
+        <Styled.TigreD id="box1" />
         <Styled.DivBtn>
           <Styled.Bnt href="https://github.com/kiondartel">
-            Curriculo{" "}
+            Curriculo
           </Styled.Bnt>
         </Styled.DivBtn>
-        <Styled.TigreE />
+        <Styled.TigreE id="box2" />
       </Styled.TigreContainer>
     </Styled.Container>
   );

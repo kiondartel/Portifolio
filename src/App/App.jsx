@@ -1,11 +1,13 @@
-import ProjectsContainer from "./components/ProjectsContainer";
-import MainContainer from "./components/MainContainer";
-import { MenuLinks } from "./components/MenuLinks";
-import GlobalStyled from "./styles/globalstyles";
-import AboutCountainer from "./components/AboutCountainer";
+import ProjectsContainer from "../components/ProjectsContainer";
+import MainContainer from "../components/MainContainer";
+import { MenuLinks } from "../components/MenuLinks";
+import GlobalStyled from "../styles/globalstyles";
+import AboutCountainer from "../components/AboutCountainer";
+
+import * as Styles from "./styles";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import GoTop from "./components/GoTop";
+import GoTop from "../components/GoTop";
 
 function App() {
   const handleClick = (e) => {
@@ -14,7 +16,7 @@ function App() {
   };
 
   return (
-    <section>
+    <Styles.Container>
       <BrowserRouter>
         <MenuLinks />
         <Routes>
@@ -25,7 +27,7 @@ function App() {
         <GoTop handleClick={handleClick} />
         <GlobalStyled />
       </BrowserRouter>
-    </section>
+    </Styles.Container>
   );
 }
 

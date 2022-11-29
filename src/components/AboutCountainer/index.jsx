@@ -9,7 +9,7 @@ const AboutCountainer = () => {
       <Styled.DivContent>
         <Styled.Title>Sobre:</Styled.Title>
         <Styled.P>
-          Me chamo Gabriel Lucas, tenho 24 anos, cursando ADS.
+          Me chamo Gabriel Lucas, tenho 24 anos, cursando A.D.S
         </Styled.P>
         <Styled.P>
           Atualemte sou desenvolvedor front-end com objetivo de me tornar

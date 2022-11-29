@@ -17,6 +17,11 @@ export const Container = styled.div`
 export const Logo = styled.img`
   width: 150px;
   height: 100px;
+
+  @media (max-width: 556px) {
+    width: 130px;
+    height: 80px;
+  }
 `;
 
 export const DivLogo = styled.div`
@@ -26,10 +31,17 @@ export const DivLogo = styled.div`
   margin-left: 3rem;
   width: 350px;
   height: 75px;
+  @media (max-width: 556px) {
+    margin-left: 0;
+  }
 `;
 
 export const DivLinks = styled.div`
   margin-right: 5rem;
+
+  @media (max-width: 556px) {
+    margin-right: 1rem;
+  }
 `;
 export const Links = styled.a`
   margin-left: 3rem;
@@ -40,11 +52,18 @@ export const Links = styled.a`
   &:hover {
     border-bottom: 0.2rem solid white;
   }
+
+  @media (max-width: 556px) {
+    font-size: 1rem;
+  }
 `;
 
 export const SubTitle = styled.h3`
-  font-family: "helvetica";
   font-size: 2rem;
   color: white;
   margin-left: 5px;
+
+  @media (max-width: 556px) {
+    font-size: 20px;
+  }
 `;

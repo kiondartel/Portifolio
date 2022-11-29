@@ -35,6 +35,15 @@ export const Container = styled.div`
       );
     }
   }
+
+  @media (max-width: 988px) {
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 400px) {
+    margin-top: 1rem;
+    width: 350px;
+  }
 `;
 
 export const SocialDiv = styled.div`

@@ -23,7 +23,7 @@ const socialNetworks = [
 const SocialNetwork = () => {
   return (
     <Styled.Container>
-      <Styled.Title>Medias Sociais:</Styled.Title>
+      <Styled.Title>Midias sociais:</Styled.Title>
       <Styled.SocialDiv>
         {socialNetworks.map((network) => (
           <Styled.A href={network.link} id={network.name} key={network.name}>

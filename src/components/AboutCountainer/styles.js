@@ -6,6 +6,10 @@ export const Container = styled.div`
   align-items: center;
   min-height: 30vh;
   background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
+
+  @media (max-width: 988px) {
+    flex-direction: column;
+  }
 `;
 
 export const DivContent = styled.div`
@@ -14,7 +18,17 @@ export const DivContent = styled.div`
   border-radius: 5px;
   padding: 15px;
   margin-left: 5px;
-  background-color: #242424; ;
+  background-color: #242424;
+
+  @media (max-width: 988px) {
+    margin-top: 1rem;
+    width: 380px;
+  }
+
+  @media (max-width: 400px) {
+    margin-top: 1rem;
+    width: 350px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -61,4 +75,5 @@ export const InforCard = styled.div`
 
 export const SubTitle = styled.h3`
   font-size: 1rem;
+  color: white;
 `;

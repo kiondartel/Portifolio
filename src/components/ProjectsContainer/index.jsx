@@ -24,7 +24,7 @@ const ProjectsContainer = () => {
           <Styled.ProjectsP>React</Styled.ProjectsP>
           <Styled.H3>Finance Control</Styled.H3>
           <Styled.ProjectsP>
-            Finance Control, consumindo uma api externa de filmes
+            Aplicativo de controle de finanças
           </Styled.ProjectsP>
           <Styled.Button href="https://finance-control-dev.web.app">
             Ver Projeto
@@ -34,9 +34,7 @@ const ProjectsContainer = () => {
           <Styled.Netflximg src={landing} />
           <Styled.ProjectsP>React</Styled.ProjectsP>
           <Styled.H3>Landing Pages</Styled.H3>
-          <Styled.ProjectsP>
-            Finance Control, consumindo uma api externa de filmes
-          </Styled.ProjectsP>
+          <Styled.ProjectsP>Projeto de curso Landing Page</Styled.ProjectsP>
           <Styled.Button href="https://github.com/kiondartel/Landing_Pages">
             Ver Projeto
           </Styled.Button>
