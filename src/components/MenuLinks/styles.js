@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "../../image/logo.jpg";
 
 export const Container = styled.div`
   display: flex;
@@ -10,18 +9,23 @@ export const Container = styled.div`
   left: 0;
   right: 0;
   width: 100%;
-  height: 6%;
+  height: 7.5%;
   background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
   align-items: center;
 `;
 
 export const Logo = styled.img`
-  background-image: url(${logo});
-  background-position: center center;
-  background-size: cover;
-  width: 50px;
-  height: 50px;
-  margin-left: 8rem;
+  width: 150px;
+  height: 100px;
+`;
+
+export const DivLogo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  width: 350px;
+  height: 75px;
 `;
 
 export const DivLinks = styled.div`
@@ -39,5 +43,8 @@ export const Links = styled.a`
 `;
 
 export const SubTitle = styled.h3`
-  font-size: 1rem;
+  font-family: "helvetica";
+  font-size: 2rem;
+  color: white;
+  margin-left: 5px;
 `;

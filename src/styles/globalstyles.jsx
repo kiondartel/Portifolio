@@ -10,6 +10,7 @@ const Global = createGlobalStyle`
  html {
   font-size: medium;
   scroll-behavior: smooth;
+  font-family: "Nunito",sans-serif;;
  }
  body{
   background-color: black;
