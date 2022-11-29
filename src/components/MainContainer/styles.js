@@ -27,7 +27,7 @@ export const TigreBackground = styled.div`
   background-image: url(${tigreback});
   background-size: cover;
   background-position: center center;
-  min-height: 80vh;
+  min-height: 75vh;
   max-width: 100%;
 
   @media (max-width: 527px) {

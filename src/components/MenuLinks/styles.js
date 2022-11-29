@@ -10,7 +10,7 @@ export const Container = styled.div`
   right: 0;
   width: 100%;
   height: 7.5%;
-  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
+  background: linear-gradient(to right, #cb22d4 16%, #4682b4 45%, #cb22d4 80%);
   align-items: center;
 `;
 
