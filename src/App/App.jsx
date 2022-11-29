@@ -24,7 +24,7 @@ function App() {
         </Routes>
         <ProjectsContainer />
         <AboutCountainer />
-        <GoTop handleClick={handleClick} />
+        <GoTop handleClick={handleClick} id="top" />
         <GlobalStyled />
       </BrowserRouter>
     </Styles.Container>

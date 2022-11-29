@@ -20,7 +20,7 @@ export const Logo = styled.img`
 
   @media (max-width: 556px) {
     width: 130px;
-    height: 80px;
+    height: 75px;
   }
 `;
 

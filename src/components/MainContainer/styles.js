@@ -50,13 +50,17 @@ export const H1 = styled.h1`
   padding-bottom: 1rem;
 
   @media (max-width: 527px) {
-    font-size: 3.3rem;
+    font-size: 2.5rem;
   }
 `;
 
 export const H3 = styled.h3`
   font-size: 1.5rem;
   color: white;
+
+  @media (max-width: 527px) {
+    font-size: 1rem;
+  }
 `;
 
 export const BackgroundPhoto = styled.div`
