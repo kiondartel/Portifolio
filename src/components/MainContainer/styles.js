@@ -48,7 +48,7 @@ export const DivBtn = styled.div`
 
 export const Bnt = styled.a`
   padding: 0.8rem 5rem;
-  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 100%);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.3rem;
@@ -56,6 +56,14 @@ export const Bnt = styled.a`
   border-radius: 10px;
   margin-left: 2.5rem;
   border: 1px solid black;
+
+  transition: transform 450ms;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.08);
+    background: linear-gradient(to right, #4682b4 0%, #cb22d4 100%);
+  }
 `;
 
 export const BackgroundPhoto = styled.div`

@@ -54,13 +54,20 @@ export const H3 = styled.h3`
 
 export const Button = styled.a`
   padding: 0.8rem 1rem;
-  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%););
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 100%);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 3rem;
-  border: 1px solid white;
+  border: 1.5px solid white;
+
+  transition: transform 450ms;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(to right, #4682b4 0%, #cb22d4 100%);
+  }
 `;
 export const ProjectsP = styled.p`
   font-size: 1rem;
@@ -86,11 +93,19 @@ export const GitBnt = styled.div`
 
 export const Bnt = styled.a`
   padding: 0.8rem 4rem;
-  background: linear-gradient(to right, #cb22d4 0%, #4682b4 50%, #cb22d4 100%);
+  background: linear-gradient(to right, #cb22d4 0%, #4682b4 100%);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 1rem;
-  border: 1px solid black;
+  border: 1.5px solid black;
+
+  transition: transform 450ms;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.08);
+    background: linear-gradient(to right, #4682b4 0%, #cb22d4 100%);
+  }
 `;
